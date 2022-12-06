@@ -1,0 +1,63 @@
+body{ 
+       background-image: linear-gradient(to right, #bdc3c7, #2c3e50);
+}
+
+header{
+display: flex;
+border: 1px solid black;
+background-color: whitesmoke;
+font-size: 35px;
+}
+
+ul{
+display: flex;
+list-style-type: none;
+}
+
+li{
+margin-left: 60px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    border-radius: 15px;
+    font-style: oblique;
+}
+
+a:hover{
+color: gray;
+transition: 0.3s ease-in-out;
+}
+
+main{
+    border: 1px solid black;
+    text-align: center;
+    width: 80%;
+    margin: 20px auto;
+}
+
+table{
+    margin: 20px auto;
+}
+
+tr,td{
+    border: 2px solid black;
+    background-color:whitesmoke ;
+    font-size: 40px;
+}
+
+footer{
+    text-align: end;
+    margin-top: 20px;
+    font-size: 25px;
+}
+
+#logo{
+    width: 110px;
+}
+
+#niltaoV1{
+    width: 600px;
+}
